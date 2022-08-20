@@ -1,0 +1,16 @@
+﻿<Window x:Class="rdlc_report_CB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rdlc_report_CB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox SelectionChanged="ComboBox_SelectionChanged" Width="200" Height="30">
+            <ComboBoxItem Tag="UsersWindow">User Windows</ComboBoxItem>
+            <ComboBoxItem Tag="SettingsWindow">User Windows</ComboBoxItem>
+            <ComboBoxItem Tag="CustomersWindow">User Windows</ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</Window>
